@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IngredFinder</string>
+    <string name="title_activity_ingredient_finder">IngredientFinder</string>
+</resources>
