@@ -20,12 +20,13 @@ public class IngredientFinder extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                lightUp();
+                Snackbar.make(view, "this should light up the ardunio", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
     }
-    public void onClickFind() {
+    public void lightUp() {
 
     }
 
